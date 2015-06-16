@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Elevator
+namespace ElevatorCommon
 {
-    class ExitCodes
+    public class ExitCodes
     {
-        public const int MissingImageName = 1;
-        public const int ProcessStartFailed = 2;
+        public const int ElevatorServerLaunchFailed = 89;
     }
 }

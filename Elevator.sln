@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elevator", "Elevator\Elevator.csproj", "{8628C120-1A64-4D2B-9ABA-665BE8AA7245}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevatorServer", "ElevatorServer\ElevatorServer.csproj", "{8628C120-1A64-4D2B-9ABA-665BE8AA7245}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevatorClient", "ElevatorClient\ElevatorClient.csproj", "{F4737DFD-17DE-46E1-94B3-176FE510362C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevatorCommon", "ElevatorCommon\ElevatorCommon.csproj", "{AD8FFE4C-5B63-4AA7-93E8-BAD1F9B5BBFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Misc", "Misc\Misc.csproj", "{D9D5E4B1-99FF-4495-9151-98A833E2E542}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8628C120-1A64-4D2B-9ABA-665BE8AA7245} = {8628C120-1A64-4D2B-9ABA-665BE8AA7245}
+		{F4737DFD-17DE-46E1-94B3-176FE510362C} = {F4737DFD-17DE-46E1-94B3-176FE510362C}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,16 @@ Global
 		{8628C120-1A64-4D2B-9ABA-665BE8AA7245}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8628C120-1A64-4D2B-9ABA-665BE8AA7245}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8628C120-1A64-4D2B-9ABA-665BE8AA7245}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4737DFD-17DE-46E1-94B3-176FE510362C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4737DFD-17DE-46E1-94B3-176FE510362C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4737DFD-17DE-46E1-94B3-176FE510362C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4737DFD-17DE-46E1-94B3-176FE510362C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD8FFE4C-5B63-4AA7-93E8-BAD1F9B5BBFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD8FFE4C-5B63-4AA7-93E8-BAD1F9B5BBFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD8FFE4C-5B63-4AA7-93E8-BAD1F9B5BBFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD8FFE4C-5B63-4AA7-93E8-BAD1F9B5BBFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9D5E4B1-99FF-4495-9151-98A833E2E542}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{D9D5E4B1-99FF-4495-9151-98A833E2E542}.Release|Any CPU.ActiveCfg = Debug|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
